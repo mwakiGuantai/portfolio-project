@@ -1,0 +1,142 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* Softer gradient */
+    color: #333;
+    line-height: 1.65;
+    padding-bottom: 20px; /* Space for footer */
+}
+
+header {
+    text-align: center;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    border-radius: 10px; /* Rounded corners */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4; /* Light grey background */
+    }
+    section{ 
+        background-attachment: ;
+        margin:2px;
+        padding:2px;
+        position: left ;
+
+    }
+    
+    .profile-container {
+        position: relative;
+        padding: 20px; /* Adjust padding as needed */
+    }
+    
+    .profile-photo {
+        width: 100px; /* Set width of the photo */
+        height: 100px; /* Set height of the photo */
+        border-radius: 50%; /* Circular border */
+        border: 5px solid #d3dde3; /* Circular border color and width */
+        object-fit: cover; /* Ensures the image covers the area */
+    }
+   
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+h2 {
+    color: #3b29db; /* Softer indigo */
+    border-bottom: 2px solid #6a5acd; /* Underline effect */
+    padding-bottom: 0.5rem;
+}
+
+main {
+    max-width: 900px; /* Wider main area */
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default padding */
+}
+
+ul li {
+    padding: 5px 0; /* Add spacing between list items */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: 700; /* Bold labels */
+}
+
+input, textarea {
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #dac0c0;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #6a5acd; /* Border changes on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 12px;
+    background-color: #6a5acd; /* Button main color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #5a4ca1;
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(220, 174, 174, 0.9);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px; /* Rounded footer */
+    margin-top: 2rem; /* Space above footer */
+}
+
+a {
+    color: #6a5acd; /* Matching link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5a4ca1; /* Darker link color on hover */
+}
